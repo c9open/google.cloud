@@ -5,7 +5,10 @@
     "Cloud9 IDE, Inc. (https://c9.io)"
   ],
   "private": true,
-  "repository": "github:c9open/google.cloud",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/c9open/google.cloud.git"
+  },
   "plugins": {
     "plugin_google.cloud": {},
     "plugin_google.vfs.credentials": {},
